@@ -4,7 +4,7 @@
 
 ---
 
-##  1. Objetivo y Alcance
+##  1. Objetivo y Alcancee
 
 ### Objetivo
 
