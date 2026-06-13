@@ -70,7 +70,7 @@ paths:
             application/json:
               schema:
                 $ref: "#/components/schemas/Error"
-      x-amazon-apigateway-integration:
+       x-amazon-apigateway-integration:
         type: MOCK
         requestTemplates:
           application/json: |
