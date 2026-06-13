@@ -101,7 +101,7 @@ paths:
                     }
                   ]
                 }
-        passthroughBehavior: "when_no_match"
+         passthroughBehavior: "when_no_match"
 
     # --- SOLO PARA LABORATORIO PROPUESTO: DESCOMENTAR PARA PUBLICAR EL MOCK ---
     post:
@@ -145,7 +145,7 @@ paths:
              application/json:
                schema:
                  $ref: "#/components/schemas/Error"
-      x-amazon-apigateway-integration:
+       x-amazon-apigateway-integration:
          type: MOCK
          requestTemplates:
            application/json: |
